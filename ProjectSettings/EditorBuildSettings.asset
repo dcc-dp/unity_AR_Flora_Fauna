@@ -1,0 +1,75 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/Home.unity
+    guid: e674dce2880cbbe4f83b66cb9e210acf
+  - enabled: 1
+    path: Assets/Scenes/Menu.unity
+    guid: fd0ae1b59306c8e4a97d592fe6e46bfc
+  - enabled: 1
+    path: Assets/Scenes/Kuis.unity
+    guid: ce857805cd070ff4db655b0d040cf70c
+  - enabled: 1
+    path: Assets/Scenes/MenuFauna.unity
+    guid: ceb067bd048eaa04a84b4edd030a5c8a
+  - enabled: 1
+    path: Assets/Scenes/MenuFlora.unity
+    guid: 2adde77a3179ed14cb31caf9c3b3212e
+  - enabled: 1
+    path: Assets/Scenes/ARSceneFlora.unity
+    guid: 2d8866bf5ce3bbf4581dfe751fc80804
+  - enabled: 1
+    path: Assets/Scenes/ARSceneFauna.unity
+    guid: 96bc3a1a43075cc479a859b917a0da5d
+  - enabled: 1
+    path: Assets/Scenes/Scene Flora/ARSceneBangkai.unity
+    guid: 2e4eafee2145d6943a9547a4b34a59f8
+  - enabled: 1
+    path: Assets/Scenes/Scene Flora/ARSceneSemar.unity
+    guid: dbf5bcaa73cbd754d9a76c85ae17aa4f
+  - enabled: 1
+    path: Assets/Scenes/Scene Flora/ARSceneRaflesia.unity
+    guid: fbcd9b0c8972b0a49840700ef9c86a64
+  - enabled: 1
+    path: Assets/Scenes/Scene Flora/ARSceneAqui.unity
+    guid: fddbbfbe8d98d8a4895f41e74ea45eb0
+  - enabled: 1
+    path: Assets/Scenes/Scene Fauna/ARSceneBadak.unity
+    guid: d409aeaba4b255046a02b7fbab550af5
+  - enabled: 1
+    path: Assets/Scenes/Scene Fauna/ARSceneCendrawasih.unity
+    guid: dc70655335e1b924a954ebbc000b02ac
+  - enabled: 1
+    path: Assets/Scenes/Scene Fauna/ARSceneGajah.unity
+    guid: 3a10e2ea510d2564cb353d89ecd7ba55
+  - enabled: 1
+    path: Assets/Scenes/Scene Fauna/ARSceneKomodo.unity
+    guid: 6c8edba22ae3ac64e94025ca58ffc6c9
+  - enabled: 1
+    path: Assets/Scenes/Scene Fauna/ARSceneOrangutan.unity
+    guid: c254a78b89ef0d74bbdd470a96b189b2
+  - enabled: 1
+    path: Assets/Scenes/Scene Fauna/ARSceneTiger.unity
+    guid: 1b07a5f4262fb9e41afa49ac0f15da2f
+  m_configObjects:
+    UnityEditor.XR.ARCore.ARCoreSettings: {fileID: 11400000, guid: 407b72f012ff8d547bff0e4ac3ec7137,
+      type: 2}
+    UnityEditor.XR.ARKit.ARKitSettings: {fileID: 11400000, guid: 84796f8f669d3cb4fa3039959b2eb94f,
+      type: 2}
+    com.unity.adaptiveperformance.loader_settings: {fileID: 11400000, guid: a2b28a6559c98484ca6343e6d7424a05,
+      type: 2}
+    com.unity.adaptiveperformance.simulator.provider_settings: {fileID: 11400000,
+      guid: 25f8738bb1b36ff48aa8c85179ae3416, type: 2}
+    com.unity.xr.arfoundation.simulation_settings: {fileID: 11400000, guid: 42dd8f7df3f33c642871b31dfa1dee29,
+      type: 2}
+    com.unity.xr.magicleap.magic_leap_settings: {fileID: 11400000, guid: b1384448c20fcb84ea08a5d4a53a5eb5,
+      type: 2}
+    com.unity.xr.management.loader_settings: {fileID: 11400000, guid: f0307256094e16a45a6120c10e99fb59,
+      type: 2}
+    com.unity.xr.openxr.settings4: {fileID: 11400000, guid: bb219c631d9cecc42baa82c56d726cb8,
+      type: 2}
