@@ -275,6 +275,113 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &473620375
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 473620376}
+  - component: {fileID: 473620379}
+  - component: {fileID: 473620378}
+  - component: {fileID: 473620377}
+  m_Layer: 5
+  m_Name: Panel
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &473620376
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 473620375}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 825882592}
+  m_Father: {fileID: 1022554831}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: -0.0017089844, y: -54.5}
+  m_SizeDelta: {x: -0.0034179688, y: -109}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &473620377
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 473620375}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1aa08ab6e0800fa44ae55d278d1423e3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Content: {fileID: 825882592}
+  m_Horizontal: 0
+  m_Vertical: 1
+  m_MovementType: 1
+  m_Elasticity: 0.1
+  m_Inertia: 1
+  m_DecelerationRate: 0.135
+  m_ScrollSensitivity: 1
+  m_Viewport: {fileID: 0}
+  m_HorizontalScrollbar: {fileID: 0}
+  m_VerticalScrollbar: {fileID: 0}
+  m_HorizontalScrollbarVisibility: 0
+  m_VerticalScrollbarVisibility: 0
+  m_HorizontalScrollbarSpacing: 0
+  m_VerticalScrollbarSpacing: 0
+  m_OnValueChanged:
+    m_PersistentCalls:
+      m_Calls: []
+--- !u!114 &473620378
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 473620375}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 0}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 10907, guid: 0000000000000000f000000000000000, type: 0}
+  m_Type: 1
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &473620379
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 473620375}
+  m_CullTransparentMesh: 1
 --- !u!1 &502268508
 GameObject:
   m_ObjectHideFlags: 0
@@ -310,7 +417,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 346.03992, y: -141.66006}
+  m_AnchoredPosition: {x: -351, y: -58}
   m_SizeDelta: {x: 107.9224, y: 105.8708}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &502268510
@@ -465,7 +572,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 116}
+  m_AnchoredPosition: {x: 0, y: 146}
   m_SizeDelta: {x: 258.2678, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &742338159
@@ -535,17 +642,17 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 825882591}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1022554831}
+  m_Father: {fileID: 473620376}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0.4557, y: -22.8793}
-  m_SizeDelta: {x: 375.1793, y: 225.7586}
+  m_AnchoredPosition: {x: 0.457409, y: 0.0009830904}
+  m_SizeDelta: {x: 375.1793, y: 298.9549}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &825882593
 MonoBehaviour:
@@ -580,10 +687,15 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1.1
-  m_Text: "Cula badak berfungsi\_sebagai alat pertahanan yang efektif melawan predator
-    atau ancaman lainnya. Badak adalah hewan herbivora besar yang hidup di lingkungan
-    di mana mereka bisa menjadi target berbagai predator, termasuk singa, harimau,
-    dan manusia.\r\n"
+  m_Text: "Badak bercula satu merupakan hewan endemik Indonesia, khususnya di wilayah
+    Ujung Kulon Banten. Badak bercula satu merupakan hewan paling langka dan terancam
+    punah. Hewan ini melewati masa reproduksi yang panjang, dalam 1 tahun hanya mampu
+    melahirkan 1-2 ekor saja. Populasi badak bercula satu semakin berkurang setiap
+    harinya akibat perburuan liar secara besar-besaran untuk mengambil culanya. Cula
+    badak digunakan untuk mengobati demam, reumatik, asam urat, dan penyakit lainnya.\n\nCula
+    badak berfungsi\_sebagai alat pertahanan yang efektif melawan predator atau ancaman
+    lainnya. Badak adalah hewan herbivora besar yang hidup di lingkungan di mana
+    mereka bisa menjadi target berbagai predator, termasuk singa, harimau, dan manusia.\r\n"
 --- !u!222 &825882594
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -623,13 +735,13 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 742338158}
-  - {fileID: 825882592}
+  - {fileID: 473620376}
   m_Father: {fileID: 195907756}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 206.62476, y: 52.93506}
-  m_SizeDelta: {x: -413.2426, y: -105.87}
+  m_AnchoredPosition: {x: 206.62476, y: 0.000045776367}
+  m_SizeDelta: {x: -413.2426, y: 0.00012207}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1022554832
 MonoBehaviour:
@@ -852,7 +964,7 @@ MonoBehaviour:
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 1
+          m_IntArgument: 3
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
@@ -1000,7 +1112,7 @@ GameObject:
   - component: {fileID: 1489431710}
   - component: {fileID: 1489431709}
   m_Layer: 0
-  m_Name: Audio Source
+  m_Name: Audio Source desc
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1016,7 +1128,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 29d736a6004096e4a92e0fdc48f89417, type: 3}
+  m_audioClip: {fileID: 8300000, guid: fc7b4ec78f7dd8144a6482f9e4b329bb, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
@@ -1520,7 +1632,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 346.04, y: -141.66}
+  m_AnchoredPosition: {x: -350.9999, y: -57.99994}
   m_SizeDelta: {x: 107.9224, y: 105.8708}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1893129989

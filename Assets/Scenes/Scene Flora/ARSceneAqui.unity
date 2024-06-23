@@ -153,13 +153,13 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 2144608233}
-  - {fileID: 580133558}
+  - {fileID: 1955481912}
   m_Father: {fileID: 1489292934}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 206.62476, y: 52.93506}
-  m_SizeDelta: {x: -413.2426, y: -105.87}
+  m_AnchoredPosition: {x: 206.62476, y: 0.000030517578}
+  m_SizeDelta: {x: -413.2426, y: 0.000061035}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &435285207
 MonoBehaviour:
@@ -224,16 +224,16 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 580133557}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 435285206}
+  m_Father: {fileID: 1955481912}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0.000016034, y: -39.7}
+  m_AnchoredPosition: {x: 0.0047767763, y: 0.0009781612}
   m_SizeDelta: {x: 375.1793, y: 225.7586}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &580133559
@@ -269,10 +269,14 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1.1
-  m_Text: "sebagai obat herbal sudah diakui sejak berabadabad silam. Klaimnya bisa
-    menjadi\_obat untuk asam urat, diabetes, hingga stroke. Tak hanya itu, manfaat
-    daun gaharu dan bagian lain dari pohon ini juga diproses menjadi produk komersil
-    seperti parfum\r\n"
+  m_Text: "Aqularia merupakan tumbuhan penghasil kayu gaharu. Gaharu memiliki kandungan
+    kadar damar yang wangi sehingga dijuluki emas beraroma dari hutan. Tempat hidupnya
+    di hutan pedalaman Kalimantan. Harga jual tanaman ini mahal sehingga banyak yang
+    memburunya. Keberadaanya sekarang sangat mengkhawatirkan dan terancam punah\n\nManfaat.\nsebagai
+    obat herbal sudah diakui sejak berabadabad silam. Klaimnya bisa menjadi\_obat
+    untuk asam urat, diabetes, hingga stroke. Tak hanya itu, manfaat daun gaharu
+    dan bagian lain dari pohon ini juga diproses menjadi produk komersil seperti
+    parfum\r\n"
 --- !u!222 &580133560
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -316,7 +320,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 346.04, y: -141.66}
+  m_AnchoredPosition: {x: -349.00003, y: -62}
   m_SizeDelta: {x: 107.9224, y: 105.8708}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &845863363
@@ -561,7 +565,7 @@ MonoBehaviour:
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 1
+          m_IntArgument: 4
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
@@ -1053,7 +1057,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 346.04, y: -141.66}
+  m_AnchoredPosition: {x: -349, y: -62}
   m_SizeDelta: {x: 107.9224, y: 105.8708}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1681753713
@@ -1321,7 +1325,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: fd1505838d07c2b478ae2b4ede0a9ad7, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 25d410f187189d343896d94f21122373, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
@@ -1466,6 +1470,113 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1955481911
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1955481912}
+  - component: {fileID: 1955481915}
+  - component: {fileID: 1955481914}
+  - component: {fileID: 1955481913}
+  m_Layer: 5
+  m_Name: Panel
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1955481912
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1955481911}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 580133558}
+  m_Father: {fileID: 435285206}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: -0.004760742, y: -27}
+  m_SizeDelta: {x: -0.0074, y: -236.4017}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1955481913
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1955481911}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1aa08ab6e0800fa44ae55d278d1423e3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Content: {fileID: 580133558}
+  m_Horizontal: 0
+  m_Vertical: 1
+  m_MovementType: 1
+  m_Elasticity: 0.1
+  m_Inertia: 1
+  m_DecelerationRate: 0.135
+  m_ScrollSensitivity: 1
+  m_Viewport: {fileID: 0}
+  m_HorizontalScrollbar: {fileID: 0}
+  m_VerticalScrollbar: {fileID: 0}
+  m_HorizontalScrollbarVisibility: 0
+  m_VerticalScrollbarVisibility: 0
+  m_HorizontalScrollbarSpacing: 0
+  m_VerticalScrollbarSpacing: 0
+  m_OnValueChanged:
+    m_PersistentCalls:
+      m_Calls: []
+--- !u!114 &1955481914
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1955481911}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 0}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 10907, guid: 0000000000000000f000000000000000, type: 0}
+  m_Type: 1
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &1955481915
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1955481911}
+  m_CullTransparentMesh: 1
 --- !u!1 &1982150242
 GameObject:
   m_ObjectHideFlags: 0
@@ -1477,7 +1588,7 @@ GameObject:
   - component: {fileID: 1982150246}
   - component: {fileID: 1982150245}
   - component: {fileID: 1982150244}
-  - component: {fileID: 1982150243}
+  - component: {fileID: 1982150247}
   m_Layer: 0
   m_Name: semar
   m_TagString: Untagged
@@ -1485,25 +1596,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1982150243
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1982150242}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1778676317, guid: 8a9a760f95896c34689febc965510927, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mObserverBehaviour: {fileID: 1982150245}
-  mHiddenRoot: {fileID: 0}
-  mTargetName: Aquilaria 1
-  mDatasetName: 
-  mCastedBehaviour: {fileID: 1982150245}
-  mMeshFilter: {fileID: 0}
-  mMeshRenderer: {fileID: 0}
 --- !u!114 &1982150244
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1574,7 +1666,7 @@ MonoBehaviour:
   mMotionHint: 1
   mTrackingOptimization: 0
   mTrackingOptimizationNeedsUpgrade: 0
-  mPreview: {fileID: 1982150243}
+  mPreview: {fileID: 1982150247}
 --- !u!4 &1982150246
 Transform:
   m_ObjectHideFlags: 0
@@ -1591,6 +1683,25 @@ Transform:
   - {fileID: 1310563070}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1982150247
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1982150242}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1778676317, guid: 8a9a760f95896c34689febc965510927, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mObserverBehaviour: {fileID: 1982150245}
+  mHiddenRoot: {fileID: 0}
+  mTargetName: Aquilaria 1
+  mDatasetName: 
+  mCastedBehaviour: {fileID: 1982150245}
+  mMeshFilter: {fileID: 0}
+  mMeshRenderer: {fileID: 0}
 --- !u!1 &2043916072
 GameObject:
   m_ObjectHideFlags: 0
@@ -1693,7 +1804,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 104.81237}
+  m_AnchoredPosition: {x: 0, y: 126}
   m_SizeDelta: {x: 258.2678, y: 52.3753}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2144608234
@@ -1729,9 +1840,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Manfaat pohon aquilaria/gaharu
-
-'
+  m_Text: Pohon aquilaria/gaharu
 --- !u!222 &2144608235
 CanvasRenderer:
   m_ObjectHideFlags: 0

@@ -205,8 +205,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 206.62476, y: 52.93506}
-  m_SizeDelta: {x: -413.2426, y: -105.87}
+  m_AnchoredPosition: {x: 206.62476, y: 22.702}
+  m_SizeDelta: {x: -413.2426, y: -45.405}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &435285207
 MonoBehaviour:
@@ -280,7 +280,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0.000016034, y: -46.986}
+  m_AnchoredPosition: {x: 0.000016034, y: -16.986}
   m_SizeDelta: {x: 375.1793, y: 225.7586}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &580133559
@@ -316,8 +316,14 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1.1
-  m_Text: "Bau busuk ini\_berfungsi sebagai pemikat bagi lalat dan kumbang yang mana
-    serangga-serangga tersebut akan berkontribusi dalam proses penyerbukan.\r\n"
+  m_Text: "Rafflesia arnoldi merupakan tumbuhan endemik bengkulu dengan persebaran
+    hutan pulau sumatra. Anatomi tanaman Rafflesia belum lengkap. Organ tubuh Rafflesia
+    hanya berupa bunga atau kuncup yang sedang mekar. Rafflesia tidak memiliki daun,
+    batang atau akar. Penyebab berkurangnya habitat bunga ini disebabkan oleh kegiaan
+    manusia seperti pembukaan wilaya hutan untuk pertambangan, pertanian, maupun
+    pemukinan.\n\nFungsi  bau pada bunga raflesia arnoldi\nBau busuk ini\_berfungsi
+    sebagai pemikat bagi lalat dan kumbang yang mana serangga-serangga tersebut akan
+    berkontribusi dalam proses penyerbukan.\r\n"
 --- !u!222 &580133560
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -361,7 +367,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 346.04, y: -141.66}
+  m_AnchoredPosition: {x: -349.00003, y: -66}
   m_SizeDelta: {x: 107.9224, y: 105.8708}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &845863363
@@ -559,7 +565,7 @@ MonoBehaviour:
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 1
+          m_IntArgument: 4
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
@@ -723,7 +729,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: e63156ec3f6d64b4eb52fe76b8b8e0ca, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 203ee217666e5204cb219f15f6f8f780, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
@@ -1179,7 +1185,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 346.04, y: -141.66}
+  m_AnchoredPosition: {x: -349, y: -66}
   m_SizeDelta: {x: 107.9224, y: 105.8708}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1681753713
@@ -1691,7 +1697,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 100}
+  m_AnchoredPosition: {x: 0, y: 130}
   m_SizeDelta: {x: 258.2678, y: 54.7577}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2144608234
@@ -1727,7 +1733,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Fungsi  bau pada bunga raflesia arnoldi
+  m_Text: 'Bunga raflesia arnoldi
 
 '
 --- !u!222 &2144608235

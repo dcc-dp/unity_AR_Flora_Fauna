@@ -205,8 +205,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 206.62476, y: 52.93506}
-  m_SizeDelta: {x: -413.2426, y: -105.87}
+  m_AnchoredPosition: {x: 206.62476, y: 0.000030518}
+  m_SizeDelta: {x: -413.2426, y: 0.000061035}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &435285207
 MonoBehaviour:
@@ -374,7 +374,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0.4557, y: -22.8793}
+  m_AnchoredPosition: {x: 0.4557, y: 8.120701}
   m_SizeDelta: {x: 375.1793, y: 225.7586}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &580133559
@@ -410,10 +410,20 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1.1
-  m_Text: 'Kantong ini berfungsi untuk menangkap serangga dan hewan-hewan kecil lainnya.
-    Kantong khusus pada tumbuhan kantong semar ini dilapisi oleh lilin yang sangat
-    licin sehingga menyulitkan serangga yang sudah terperangkap dalam kantong ini
-    untuk naik dan keluar.
+  m_Text: 'Tanaman kantong semar merupakan tanaman karnivora, artinya memakan daging 
+    serangga dan hewan kecil. Banyak orang mengira kantong pada tanaman ini adalah
+    bunga. Tapi ini sebenarnya adalah versi modifikasi dari bilahnya. Kantong ini
+    digunakan untuk menangkap serangga dan hewan kecil lainnya. Tumbuhan ini termasuk
+    tumbuhan langka karena disebabkan eksploitasi berlebihan, pembalakan liar, dan
+    alih fungsi hutan.
+
+
+    Fungsi Kantong Semar
+
+    Kantong ini berfungsi untuk
+    menangkap serangga dan hewan-hewan kecil lainnya. Kantong khusus pada tumbuhan
+    kantong semar ini dilapisi oleh lilin yang sangat licin sehingga menyulitkan
+    serangga yang sudah terperangkap dalam kantong ini untuk naik dan keluar.
 
 '
 --- !u!222 &580133560
@@ -526,7 +536,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 9ead565bd8a8964418f6fa2b972c0f30, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 720870693e029bc4d90c33ab8ab83bd2, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
@@ -662,7 +672,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 346.04, y: -141.66}
+  m_AnchoredPosition: {x: -347.00003, y: -57}
   m_SizeDelta: {x: 107.9224, y: 105.8708}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &845863363
@@ -860,7 +870,7 @@ MonoBehaviour:
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 1
+          m_IntArgument: 4
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
@@ -1359,7 +1369,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 346.04, y: -141.66}
+  m_AnchoredPosition: {x: -347, y: -57}
   m_SizeDelta: {x: 107.9224, y: 105.8708}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1681753713
@@ -1873,7 +1883,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 116}
+  m_AnchoredPosition: {x: 0, y: 147}
   m_SizeDelta: {x: 258.2678, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2144608234
@@ -1909,7 +1919,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Fungsi Kantong Semar
+  m_Text: Kantong Semar
 --- !u!222 &2144608235
 CanvasRenderer:
   m_ObjectHideFlags: 0

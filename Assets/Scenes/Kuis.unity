@@ -956,7 +956,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 180
+  m_Text: 60
 --- !u!222 &457782971
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -3030,7 +3030,7 @@ MonoBehaviour:
   textKesempatan: {fileID: 1561306539}
   score: 0
   maxKesempatan: 3
-  waktuBermain: 180
+  waktuBermain: 60
 --- !u!4 &1899619271
 Transform:
   m_ObjectHideFlags: 0
