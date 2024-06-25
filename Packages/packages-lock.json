@@ -9,7 +9,7 @@
       }
     },
     "com.siccity.gltfutility": {
-      "version": "file:../Assets/GLTFUtility-0.7",
+      "version": "file:../Assets/GLTFUtility-master",
       "depth": 0,
       "source": "local",
       "dependencies": {
