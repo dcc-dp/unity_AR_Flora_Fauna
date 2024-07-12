@@ -1,0 +1,47 @@
+tambahan form menu kegiatan di landing page :
+- tanda tangan
+- NIK
+- status keikutpesertaan (peserta,panitia,narasumber)
+
+form narasumber :
+sesuai di web (ada contoh nya)
+
+narasumber registrasi sbg terdaftar sbg Data external
+
+setelah isi form menjadi absen (bagi yg tidak ada nik)
+- ini data absen yg tampil 
+- ada format nama kegiatan untuk daftar absen (untuk dicetak)
+  ada 3 jenis absen : 
+	1. Peserta 
+	2. Panitia (Tidak butuh asal kabupaten)
+	3. Narasumber (ada jam mengajar - kosongkan saja)
+
+3 daftar KIT :
+untuk panitia,peserta, narasumber
+
+- admin buatkan kegiatan untuk peserta daftar.
+isi keterangan KIT
+
+
+lembar yg harus ada. (Jabatan ganti jadi Instansi)
+absen, tanda terima kit, lembar registrasi
+
+
+
+* Kuitansi :
+- ada admin keuangan (untuk mengisi kuitansi)
+admin mentukan uang harian dan uang penginapan
+Rincian yg manual diisi admin
+3 kuitansi wejib ada (untuk peserta, narasumber)
+form nomor MAK, nomor Bukti manual diisi
+- Ketika sudah isi kuitansi
+
+maka akan ada surat permintaan (data" dari kuitansi)
+- Amplop diambil dari data Permintaan saja juga
+- bagian amplop admin manual Potongan biaya nya
+
+
+- Narasumber memilikii Honor
+
+Daftar honor :
+admin manual isi jumlah dan ****
