@@ -1,0 +1,20 @@
+table kuitansi
+- nomor bukti
+- tahun anggaran
+- nommor MAK 
+- biaya penginapan
+- biaya uang harian  
+- durasi penginapan
+- durasi uang harian
+- kategori 
+ 
+
+
+
+
+
+- asal transport
+- tujuan transport
+- transportasi
+- keterangan 
+- biaya transport

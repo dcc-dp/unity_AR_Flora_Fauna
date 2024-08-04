@@ -5,41 +5,31 @@ using UnityEngine;
 public class rotatorObject : MonoBehaviour
 {
 
-    [SerializeField] float rotationSpeed = 50f;
-    bool dragging = false;
-    Rigidbody rb;
-
-
-    // Start is called before the first frame update
-    void Start()
-    {
-        rb = GetComponent<Rigidbody>();
-    }
-
-    private void OnMouseDrag()
-    {
-        dragging = true;
-    }
-
+    public float speed = 10;
+    private string sumbu;
+    private bool putar;
     // Update is called once per frame
     void Update()
     {
-        if(Input.GetMouseButtonUp(0))
+        if(putar)
         {
-            dragging=false;
+            if(sumbu.ToUpper().Equals("X"))
+            {
+                transform.Rotate(Vector3.forward * speed);
+            } 
         }
     }
 
-    private void FixedUpdate()
+    public void RotateCube(string sumbu)
     {
-        if(dragging)
-        {
-            float x = Input.GetAxis("Mouse X") * rotationSpeed * Time.fixedDeltaTime;
-            float y = Input.GetAxis("Mouse Y") * rotationSpeed * Time.fixedDeltaTime;
-
-            rb.AddTorque(Vector3.down * x);
-            rb.AddTorque(Vector3.right * y);
-
-        }
+        this.sumbu = sumbu;
+        putar = true;
     }
+
+    public void StopRotation( )
+    {
+        putar = false;
+    }
+
+   
 }
