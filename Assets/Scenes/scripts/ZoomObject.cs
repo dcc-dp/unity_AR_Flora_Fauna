@@ -35,8 +35,4 @@ public class ZoomObject : MonoBehaviour
         isScale = false;
     }
 
-
-   
-
-
 }

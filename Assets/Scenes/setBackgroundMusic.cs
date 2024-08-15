@@ -83,7 +83,10 @@ public class setBackgroundMusic : MonoBehaviour
         }
 
         // Menghentikan musik di scene tertentu
-        if (scene.name == "Kuis" || scene.name == "ARSceneBangkai" || scene.name == "ARSceneSemar" || scene.name == "ARSceneRaflesia" || scene.name == "ARSceneAqui" || scene.name == "ARSceneBadak" || scene.name == "ARSceneCendrawasih" || scene.name == "ARSceneGajah" || scene.name == "ARSceneKomodo" || scene.name == "ARSceneOrangutan" || scene.name == "ARSceneTiger")
+        if (scene.name == "Kuis" || scene.name == "ARSceneBangkai" || scene.name == "ARSceneSemar" || scene.name == "ARSceneRaflesia" 
+            || scene.name == "ARSceneAqui" || scene.name == "ARSceneBadak" || scene.name == "ARSceneCendrawasih" 
+            || scene.name == "ARSceneGajah" || scene.name == "ARSceneKomodo" || scene.name == "ARSceneOrangutan" 
+            || scene.name == "ARSceneTiger")
         {
             if (audioSource.clip == otherScenesMusic)
             {

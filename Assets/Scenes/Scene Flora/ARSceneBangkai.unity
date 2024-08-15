@@ -1559,7 +1559,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mObserverBehaviour: {fileID: 1436877668}
   mHiddenRoot: {fileID: 0}
-  mTargetName: WhatsApp_Image_2024-07-16_at_22.48.17-removebg-preview
+  mTargetName: marker bunga bangkai
   mDatasetName: 
   mCastedBehaviour: {fileID: 1436877668}
   mMeshFilter: {fileID: 0}
@@ -1623,14 +1623,14 @@ MonoBehaviour:
   PreviewVisible: 1
   RuntimeOcclusion: 0
   RuntimeCollider: 0
-  mTrackableName: WhatsApp_Image_2024-07-16_at_22.48.17-removebg-preview
+  mTrackableName: marker bunga bangkai
   mInitializedInEditor: 1
   mDataSetPath: 
   mAspectRatio: 1
   mImageTargetType: 3
   mWidth: 0.2
   mHeight: 0.2
-  mRuntimeTexture: {fileID: 2800000, guid: 00c5ce15c773e4847abe3f37c4f06acd, type: 3}
+  mRuntimeTexture: {fileID: 2800000, guid: 98060d8a13f0fc147b21a6bba790256b, type: 3}
   mMotionHint: 1
   mTrackingOptimization: 0
   mTrackingOptimizationNeedsUpgrade: 0

@@ -11,6 +11,10 @@ public class markerAll : MonoBehaviour
 
     void Start()
     {
+        // Memeriksa dan meminta izin penyimpanan saat aplikasi dimulai
+        RequestStoragePermission();
+
+        // Menambahkan listener untuk tombol download
         downloadButton.onClick.AddListener(OnDownloadButtonClicked);
     }
 
@@ -19,8 +23,9 @@ public class markerAll : MonoBehaviour
         string sourcePath = GetStreamingAssetsPath(Path.Combine(folderName, pdfFileName));
         string destinationPath = GetRootStoragePath(pdfFileName);
 
-        Debug.Log("File akan diunduh dari: " + sourcePath);
-        Debug.Log("File akan diunduh ke: " + destinationPath);
+        Debug.Log("Source path: " + sourcePath);
+        Debug.Log("Destination path: " + destinationPath);
+
         StartCoroutine(DownloadFile(sourcePath, destinationPath));
     }
 
@@ -36,8 +41,11 @@ public class markerAll : MonoBehaviour
     string GetRootStoragePath(string fileName)
     {
 #if UNITY_ANDROID
-        return Path.Combine("/storage/emulated/0/", fileName); // Path umum untuk penyimpanan internal Android
+        // Menyimpan file ke folder Download
+        string path = Path.Combine("/storage/emulated/0/Download", fileName);
+        return path;
 #else
+        // Path alternatif untuk pengujian di Editor
         return Path.Combine(Application.persistentDataPath, fileName);
 #endif
     }
@@ -50,9 +58,17 @@ public class markerAll : MonoBehaviour
 
             if (request.result == UnityWebRequest.Result.Success)
             {
-                File.WriteAllBytes(destinationPath, request.downloadHandler.data);
-                Debug.Log("File berhasil diunduh ke: " + destinationPath);
-                ShowToast("File berhasil diunduh! Lokasi: " + destinationPath);
+                try
+                {
+                    File.WriteAllBytes(destinationPath, request.downloadHandler.data);
+                    Debug.Log("File berhasil diunduh ke: " + destinationPath);
+                    ShowToast("File berhasil diunduh! Lokasi: " + destinationPath);
+                }
+                catch (IOException ex)
+                {
+                    Debug.LogError("Gagal menulis file: " + ex.Message);
+                    ShowToast("Gagal menulis file.");
+                }
             }
             else
             {
@@ -60,6 +76,16 @@ public class markerAll : MonoBehaviour
                 ShowToast("Gagal mengunduh file.");
             }
         }
+    }
+
+    void RequestStoragePermission()
+    {
+#if UNITY_ANDROID
+        if (!UnityEngine.Android.Permission.HasUserAuthorizedPermission(UnityEngine.Android.Permission.ExternalStorageWrite))
+        {
+            UnityEngine.Android.Permission.RequestUserPermission(UnityEngine.Android.Permission.ExternalStorageWrite);
+        }
+#endif
     }
 
     void ShowToast(string message)

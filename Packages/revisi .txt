@@ -1,0 +1,13 @@
+revisi :
+- tampilan umum tidak sesuai dengan figma. di user tampilan bisa di scroll ke bawah
+- error di data admin.
+- notifikasi
+- filter tgl
+- penilaian ada di user, supaya bisa menilai dari pertanyaan" nya
+- umpan balik, admin bisa kasi kabar ke user. dia bisa kirim pesan ke user. bisa komunikasi antar user berdasarkan yg dia pilih.
+- register user inputan kasih type number (username tidak usah)
+nim/nip saja.
+- email itu pakai email yg asli dan ter verifikasi.
+- user, pegawai gambar saja. klo di admin table spya bisa di edit
+- spk topsis langsung di tentukan
+- 
